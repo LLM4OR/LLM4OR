@@ -1,4 +1,4 @@
-# LLM4OR
+# LLM for Optimization Modeling
 
 author
 
