@@ -22,7 +22,20 @@
   <!-- Keywords for your paper to be indexed by-->
   <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css">
+    <style>
+        .image-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .image-container img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
 
   <title>LLM for Optimization Modeling</title>
   <link rel="icon" type="image/x-icon" href="static/images/icon.png">
@@ -52,7 +65,7 @@
       <div class="container is-max-desktop">
         <div class="columns is-centered">
           <div class="column has-text-centered">
-            <h1 class="title is-1 publication-title">LLM for Optimization Modeling</h1>
+            <h1 class="title is-1 publication-title">Optimization Modeling in the Era of LLMs: Progress and Future Directions</h1>
             <div class="is-size-5 publication-authors">
               <!-- Paper authors -->
               <span class="author-block">
@@ -65,7 +78,7 @@
                   </div>
 
                   <div class="is-size-5 publication-authors">
-                    <span class="author-block">Institution Name<br>Conferance name and year</span>
+                    <span class="author-block">Institution Name<br>Conference Name</span>
                     <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
                   </div>
 
@@ -148,7 +161,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ullamcorper tellus sed ante aliquam tempus. Etiam porttitor urna feugiat nibh elementum, et tempor dolor mattis. Donec accumsan enim augue, a vulputate nisi sodales sit amet. Proin bibendum ex eget mauris cursus euismod nec et nibh. Maecenas ac gravida ante, nec cursus dui. Vivamus purus nibh, placerat ac purus eget, sagittis vestibulum metus. Sed vestibulum bibendum lectus gravida commodo. Pellentesque auctor leo vitae sagittis suscipit.
+            By virtue of its great utility in solving real-world problems, optimization modeling has been widely employed for optimal decision-making across various sectors, but it requires substantial expertise from operations research professionals. With the advent of large language models (LLMs), new opportunities have emerged to automate the procedure of mathematical modeling. This survey presents a comprehensive and timely review of recent advancements. First, we categorize the research based on the technical stack, including data synthesis and fine-tuning for the base model, more advanced inference frameworks, benchmarks, and evaluation metrics. Second, we conduct an in-depth analysis on the quality of benchmark datasets and deliver new insights on the reported results upon these datasets. Third, we build an online portal that aggregates existing datasets and algorithms. Finally, we identify limitations in current methodologies and outline future research opportunities
           </p>
         </div>
       </div>
@@ -158,68 +171,18 @@
 <!-- End paper abstract -->
 
 
-
-
-<!-- Datasets Section -->
+<!-- categorization  Section -->
 <section class="section hero is-small">
   <div class="container is-max-desktop">
     <div class="columns is-centered has-text-centered">
       <div class="column is-four-fifths">
-        <h2 class="title is-3">Datasets</h2>
-        <div class="content has-text-justified">
-          <p>Below are the OR datasets used for evaluating LLMs, and we have provided download Links. </p>
-          <ul>
-            <li>
-              <a href="./static/datasets/ComplexOR/" download>
-                <i class="fas fa-download"></i> ComplexOR (Description of ComplexOR)
-              </a>
-            </li>
-            <li>
-              <a href="./static/datasets/IndustryOR/" download>
-                <i class="fas fa-download"></i> IndustryOR (Description of IndustryOR)
-              </a>
-            </li>
-            <li>
-              <a href="./static/datasets/Mamo" download>
-                <i class="fas fa-download"></i> Mamo (Description of Mamo)
-              </a>
-            </li>
-            <li>
-              <a href="./static/datasets/NL4Opt" download>
-                <i class="fas fa-download"></i> NL4Opt (Description of NL4Opt)
-              </a>
-            </li>
-            <li>
-              <a href="./static/datasets/NLP4LP" download>
-                <i class="fas fa-download"></i> NLP4LP (Description of NLP4LP)
-              </a>
-            </li>
-            <li>
-              <a href="./static/datasets/ReSocratic" download>
-                <i class="fas fa-download"></i> ReSocratic (Description of ReSocratic)
-              </a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-<!-- End Datasets Section -->
-
-
-<!-- Results Section -->
-<section class="section hero is-light">
-  <div class="container is-max-desktop">
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-four-fifths">
-        <h2 class="title is-3">Results</h2>
+        <h2 class="title is-3">Categorization</h2>
         <div class="content has-text-centered">
-          <img src="static/images/result.png" 
-               alt="Result of evaluating OR LLMs" 
-               style="transform: scale(1.25); display: block; margin: 0 auto; margin-bottom: 40px;">
+          <img src="static/images/divide.png" 
+            alt="categorization of OR LLMs" 
+            style="transform: scale(1.25); display: block; margin: 50px auto 100px;">
           <p>
-            Results of evaluating LLMs on existing OR benchmarks.
+            <strong>Categorization of the existing LLM4OR research based on the technical stack</strong>. Left: Taxonomy of LLMs for Operations Research Modeling. Right: We present representative works for each category, sorted by their publication dates
           </p>
         </div>
       </div>
@@ -227,6 +190,157 @@
   </div>
 </section>
 <!-- End Results Section -->
+
+<!-- benchmarks Section -->
+<section class="section hero is-light">
+  <!-- Benchmarks -->
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Benchmarks</h2>
+
+        <div class="content has-text-justified">
+          <p>Below are the OR benchmarks used for evaluating LLMs.</p>
+          <div class="content">
+            <ul>
+                <li>
+                    Chain-of-Experts: When LLMs Meet Complex Operation Research, <em>Xiao et al.</em>
+                    <div>
+                        <a href="https://openreview.net/forum?id=HobyL1B9CZ"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a>
+                        <a href="https://github.com/xzymustbexzy/Chain-of-Experts"><img src="https://img.shields.io/github/stars/xzymustbexzy/Chain-of-Experts?style=social"></a>
+                    </div>
+                </li>
+                <li>
+                    ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling, <em>Huang et al.</em>
+                    <div>
+                        <a href="https://arxiv.org/abs/2405.17743"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a>
+                        <a href="https://github.com/Jeff-LiangF/FlowVid"><img src="https://img.shields.io/github/stars/Jeff-LiangF/FlowVid?style=social"></a>
+                    </div>
+                </li>
+                <li>
+                    Mamo: a Mathematical Modeling Benchmark with Solvers, <em>Huang et al.</em>
+                    <div>
+                        <a href="https://arxiv.org/abs/2405.13144"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a>
+                    </div>
+                </li>
+                <li>
+                    NL4Opt Competition: Formulating Optimization Problems Based on Their Natural Language Descriptions
+                    <div>
+                        <a href="https://proceedings.mlr.press/v220/ramamonjison23a.html"><img src="https://img.shields.io/badge/PMLR-Paper-red"></a>
+                        <a href="https://nl4opt.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a>
+                        <a href="https://github.com/nl4opt/nl4opt-competition"><img src="https://img.shields.io/github/stars/nl4opt/nl4opt-competition?style=social"></a>
+                    </div>
+                </li>
+                <li>
+                    OptiMUS: Scalable Optimization Modeling with (MI)LP Solvers and Large Language Models, <em>AhmadiTeshnizi et al.</em>
+                    <div>
+                        <a href="https://arxiv.org/abs/2402.10172"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a>
+                        <a href="https://optimus-solver.com//"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a>
+                        <a href="https://github.com/teshnizi/OptiMUS"><img src="https://img.shields.io/github/stars/teshnizi/OptiMUS?style=social"></a>
+                    </div>
+                </li>
+                <li>
+                    OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling, <em>Yang et al.</em>
+                    <div>
+                        <a href="https://arxiv.org/abs/2407.09887"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a>
+                        <a href="https://github.com/yangzhch6/ReSocratic"><img src="https://img.shields.io/github/stars/yangzhch6/ReSocratic?style=social"></a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        
+        <p>We provide download links for each dataset Here.</p>
+          <ul>
+            <li>
+              <a href="./static/datasets/ComplexOR/" download>
+                <i class="fas fa-download"></i> ComplexOR 
+              </a>
+            </li>
+            <li>
+              <a href="./static/datasets/IndustryOR/" download>
+                <i class="fas fa-download"></i> IndustryOR 
+              </a>
+            </li>
+            <li>
+              <a href="./static/datasets/Mamo" download>
+                <i class="fas fa-download"></i> Mamo 
+              </a>
+            </li>
+            <li>
+              <a href="./static/datasets/NL4Opt" download>
+                <i class="fas fa-download"></i> NL4Opt 
+              </a>
+            </li>
+            <li>
+              <a href="./static/datasets/NLP4LP" download>
+                <i class="fas fa-download"></i> NLP4LP 
+              </a>
+            </li>
+            <li>
+              <a href="./static/datasets/ReSocratic" download>
+                <i class="fas fa-download"></i> ReSocratic 
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+</section>
+
+<!-- Analysis -->
+<section class="section hero is-small">
+  <div class="columns is-centered has-text-centered">
+    <div class="column is-four-fifths">
+        <h2 class="title is-3">Analysis on Benchmark Datasets</h2>
+        <div class="content has-text-centered">
+            <div class="columns is-centered">
+                <div class="column is-half">
+                    <div class="image-container">
+                        <img src="static/images/error.png" 
+                             alt="Result of evaluating OR LLMs - Part A">
+                    </div>
+                    <p>
+                      <em>(a) Statistics related to the OR modeling benchmarks</em>
+                    </p>
+                </div>
+                <div class="column is-half">
+                    <div class="image-container">
+                        <img src="static/images/complexity.png" 
+                             alt="Result of evaluating OR LLMs - Part B">
+                    </div>
+                    <p>
+                      <em>(b) Statistical analysis of problemcomplexity across all benchmarks</em>
+                    </p>
+                </div>
+            </div>
+            <p>
+                Performance Comparison of Existing Methods over all benchmarks
+            </p>
+        </div>
+    </div>
+</div>
+</section>
+
+  
+<section class="section hero is-light">
+    <!-- Results -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">LeaderBoard</h2>
+        <div class="content has-text-centered">
+          <img src="static/images/result.png" 
+               alt="Result of evaluating OR LLMs" 
+               style="transform: scale(1); display: block; margin: 0 auto; margin-bottom: 50px;">
+          <p>
+            Performance Comparison of Existing Methods over all benchmarks
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
 
 
