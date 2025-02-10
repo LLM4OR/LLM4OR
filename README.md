@@ -1,6 +1,5 @@
 # Optimization Modeling in the Era of LLMs: Progress and Future Directions
 
-(survey information and link)
 
 ## Introduction
 
