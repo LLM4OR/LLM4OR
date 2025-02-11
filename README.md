@@ -36,13 +36,10 @@
 ### Data Synthesis and Fine-tuning
 - Jiang et al: "*LLMOPT: Learning to Define and Solve General Optimization Problems from Scratch*", ICLR(2025).
     - <a href="https://arxiv.org/abs/2410.13213"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://github.com/caigaojiang/LLMOPT"><img src="https://img.shields.io/github/stars/caigaojiang/LLMOPT?style=social"></a>
-
 - Wu et al: "*Evo-Step: Evolutionary Generation and Stepwise Validation for Optimizing LLMs in OR*", ICLR(2025).
     - <a href="https://openreview.net/forum?id=aapUBU9U0D"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a> <a href="https://github.com/samwu-learn/Evo-Step"><img src="https://img.shields.io/github/stars/samwu-learn/Evo-Step?style=social"></a>
-
 - Li et al: "*Towards Foundation Models for Mixed Integer Linear Programming*", ICLR(2025).
     - <a href="https://arxiv.org/abs/2410.08288"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://www.microsoft.com/en-us/research/project/optiguide-genai-for-supply-chain-optimization/?msockid=1a1ccce4197d663e1c2bdd4318e1678d"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/microsoft/MILP-Evolve"><img src="https://img.shields.io/github/stars/microsoft/MILP-Evolve?style=social"></a>
-
 - Yang et al: "*OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling*", ICML(2024).
     - <a href="https://arxiv.org/abs/2407.09887"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://github.com/yangzhch6/ReSocratic"><img src="https://img.shields.io/github/stars/yangzhch6/ReSocratic?style=social"></a>
 
