@@ -18,18 +18,37 @@
 ## Benchmarks
 - Xiao et al: "*Chain-of-Experts: When LLMs Meet Complex Operation Research*", ICLR(2024).
     - <a href="https://openreview.net/forum?id=HobyL1B9CZ"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a> <a href="https://github.com/xzymustbexzy/Chain-of-Experts"><img src="https://img.shields.io/github/stars/xzymustbexzy/Chain-of-Experts?style=social"></a>
+    - abstract modeling
+    - contains 37 instances collected from both industrial and academic scenarios
 - Huang et al: "*ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling*", arXiv preprint arXiv:2405.17743(2024).
     - <a href="https://arxiv.org/abs/2405.17743"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://github.com/Cardinal-Operations/ORLM"><img src="https://img.shields.io/github/stars/Cardinal-Operations/ORLM?style=social"></a>  
+    - covers a variety of problem types, including MIP and NIP
+    - features descriptions with or without tabular data
+    - suffers from quality con-trol issues, which result in a high error rate.
 - Huang et al: "*Mamo: a Mathematical Modeling Benchmark with Solvers*", arXiv preprint arXiv:2405.13144(2024).
     - <a href="https://arxiv.org/abs/2405.13144"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a>
+    - includes optimal variable information, offering additional perspectives for evaluating model correctness
+    - categorizes problems into three classes:EasyLP,ComplexLP and ODE. 
 - Ramamonjison et al: "*NL4Opt Competition: Formulating Optimization Problems Based on Their Natural Language Descriptions*", NeurIPS(2022).
     - <a href="https://proceedings.mlr.press/v220/ramamonjison23a.html"><img src="https://img.shields.io/badge/PMLR-Paper-red"></a> <a href="https://nl4opt.github.io/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/nl4opt/nl4opt-competition"><img src="https://img.shields.io/github/stars/nl4opt/nl4opt-competition?style=social"></a>
+    - primarily focuses on simple optimization modeling problems.
+    - the first optimization modeling benchmark proposed in acompetition 
+    - features a test set of 289 instances. 
 - AhmadiTeshnizi et al: "*OptiMUS: Scalable Optimization Modeling with (MI)LP Solvers and Large Language Models*", arXiv preprint arXiv:2407.19633(2024).
     - <a href="https://arxiv.org/abs/2402.10172"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://optimus-solver.com/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/teshnizi/OptiMUS"><img src="https://img.shields.io/github/stars/teshnizi/OptiMUS?style=social"></a>
+    - abstract modeling
+    - extends the number of instances to 269
 - Yang et al: "*OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling*", ICML(2024).
     - <a href="https://arxiv.org/abs/2407.09887"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://github.com/yangzhch6/ReSocratic"><img src="https://img.shields.io/github/stars/yangzhch6/ReSocratic?style=social"></a>
+    - introduces a com-prehensive framework that applies multiple filters to remove erroneous cases 
+    - expands the test set to 605 instances.
+- Wang et al: "*OptiBench: Benchmarking Large Language Models in Optimization Modeling with Equivalence-Detection Evaluation*", ICLR(2025). 
+    - <a href="https://openreview.net/forum?id=KD9F5Ap878"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a>  <a href="https://github.com/HoshinoAkua/OptiBench"><img src="https://img.shields.io/github/stars/HoshinoAkua/OptiBench?style=social"></a>  
+    - abstract modeling
+    - offers a collection of 816 instances
 - Parashar et al: "*WIQOR: A dataset for what-if analysis of Operations Research problems*", ICLR(2025).
     - <a href="https://openreview.net/forum?id=no8ysO3xde"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a>
+    - employs what-if analysis to assess performance
 
 
 ## Papers
