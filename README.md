@@ -1,4 +1,4 @@
-# Optimization Modeling in the Era of LLMs: Progress and Future Directions
+# A Survey of Optimization Modeling Meets LLMs: Progress and Future Directions
 
 
 ## Introduction
@@ -20,6 +20,14 @@
     - <a href="https://openreview.net/forum?id=HobyL1B9CZ"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a> <a href="https://github.com/xzymustbexzy/Chain-of-Experts"><img src="https://img.shields.io/github/stars/xzymustbexzy/Chain-of-Experts?style=social"></a>
     - abstract modeling
     - contains 37 instances collected from both industrial and academic scenarios
+- AhmadiTeshnizi et al: "*OptiMUS: Scalable Optimization Modeling with (MI)LP Solvers and Large Language Models*", arXiv preprint arXiv:2407.19633(2024).
+    - <a href="https://arxiv.org/abs/2402.10172"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://optimus-solver.com/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/teshnizi/OptiMUS"><img src="https://img.shields.io/github/stars/teshnizi/OptiMUS?style=social"></a>
+    - abstract modeling
+    - extends the number of instances to 269
+- Wang et al: "*OptiBench: Benchmarking Large Language Models in Optimization Modeling with Equivalence-Detection Evaluation*", ICLR(2025). 
+    - <a href="https://openreview.net/forum?id=KD9F5Ap878"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a>  <a href="https://github.com/HoshinoAkua/OptiBench"><img src="https://img.shields.io/github/stars/HoshinoAkua/OptiBench?style=social"></a>  
+    - abstract modeling
+    - offers a collection of 816 instances
 - Huang et al: "*ORLM: A Customizable Framework in Training Large Models for Automated Optimization Modeling*", arXiv preprint arXiv:2405.17743(2024).
     - <a href="https://arxiv.org/abs/2405.17743"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://github.com/Cardinal-Operations/ORLM"><img src="https://img.shields.io/github/stars/Cardinal-Operations/ORLM?style=social"></a>  
     - covers a variety of problem types, including MIP and NIP
@@ -34,18 +42,10 @@
     - primarily focuses on simple optimization modeling problems.
     - the first optimization modeling benchmark proposed in acompetition 
     - features a test set of 289 instances. 
-- AhmadiTeshnizi et al: "*OptiMUS: Scalable Optimization Modeling with (MI)LP Solvers and Large Language Models*", arXiv preprint arXiv:2407.19633(2024).
-    - <a href="https://arxiv.org/abs/2402.10172"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://optimus-solver.com/"><img src="https://img.shields.io/badge/project-Website-%23009BD5"></a> <a href="https://github.com/teshnizi/OptiMUS"><img src="https://img.shields.io/github/stars/teshnizi/OptiMUS?style=social"></a>
-    - abstract modeling
-    - extends the number of instances to 269
 - Yang et al: "*OptiBench Meets ReSocratic: Measure and Improve LLMs for Optimization Modeling*", ICML(2024).
     - <a href="https://arxiv.org/abs/2407.09887"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://github.com/yangzhch6/ReSocratic"><img src="https://img.shields.io/github/stars/yangzhch6/ReSocratic?style=social"></a>
     - introduces a com-prehensive framework that applies multiple filters to remove erroneous cases 
     - expands the test set to 605 instances.
-- Wang et al: "*OptiBench: Benchmarking Large Language Models in Optimization Modeling with Equivalence-Detection Evaluation*", ICLR(2025). 
-    - <a href="https://openreview.net/forum?id=KD9F5Ap878"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a>  <a href="https://github.com/HoshinoAkua/OptiBench"><img src="https://img.shields.io/github/stars/HoshinoAkua/OptiBench?style=social"></a>  
-    - abstract modeling
-    - offers a collection of 816 instances
 - Parashar et al: "*WIQOR: A dataset for what-if analysis of Operations Research problems*", ICLR(2025).
     - <a href="https://openreview.net/forum?id=no8ysO3xde"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a>
     - employs what-if analysis to assess performance
