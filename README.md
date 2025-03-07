@@ -15,6 +15,7 @@
 <br><em>Performance Comparison of Existing Methods over OR benchmarks.</em>
 </p>
 
+
 ## Benchmarks
 - Xiao et al: "*Chain-of-Experts: When LLMs Meet Complex Operation Research*", ICLR(2024).
     - <a href="https://openreview.net/forum?id=HobyL1B9CZ"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a> <a href="https://github.com/xzymustbexzy/Chain-of-Experts"><img src="https://img.shields.io/github/stars/xzymustbexzy/Chain-of-Experts?style=social"></a>
@@ -49,6 +50,9 @@
 - Parashar et al: "*WIQOR: A dataset for what-if analysis of Operations Research problems*", ICLR(2025).
     - <a href="https://openreview.net/forum?id=no8ysO3xde"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a>
     - employs what-if analysis to assess performance
+
+## Data Cleaning
+In this work, we identified the error samples in these benchmarks, subsequently tagging them with an "error" label. We provide download links for these labeled benchmarks <a href="[超链接地址](https://github.com/LLM4OR/LLM4OR/tree/master/static/clean_benchmarks)">HERE</a>.
 
 
 ## Papers
