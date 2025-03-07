@@ -52,7 +52,7 @@
     - employs what-if analysis to assess performance
 
 ## Data Cleaning
-In this work, we identified the error samples in these benchmarks, subsequently tagging them with an "error" label. We provide download links for these labeled benchmarks <a href="[超链接地址](https://github.com/LLM4OR/LLM4OR/tree/master/static/clean_benchmarks)">HERE</a>.
+In this work, we identified the error samples in these benchmarks, subsequently tagging them with an "error" label. We provide download links for these labeled benchmarks <a href="https://github.com/LLM4OR/LLM4OR/tree/master/static/clean_benchmarks">HERE</a>.
 
 
 ## Papers
