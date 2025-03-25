@@ -35,7 +35,7 @@
     - features descriptions with or without tabular data
     - suffers from quality con-trol issues, which result in a high error rate.
 - Huang et al: "*Mamo: a Mathematical Modeling Benchmark with Solvers*", arXiv preprint arXiv:2405.13144(2024).
-    - <a href="https://arxiv.org/abs/2405.13144"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a>
+    - <a href="https://arxiv.org/abs/2405.13144"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://github.com/FreedomIntelligence/Mamo"><img src="https://img.shields.io/github/stars/FreedomIntelligence/Mamo?style=social"></a>
     - includes optimal variable information, offering additional perspectives for evaluating model correctness
     - categorizes problems into three classes:EasyLP,ComplexLP and ODE. 
 - Ramamonjison et al: "*NL4Opt Competition: Formulating Optimization Problems Based on Their Natural Language Descriptions*", NeurIPS(2022).
