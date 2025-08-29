@@ -1,6 +1,6 @@
 # A Survey of Optimization Modeling Meets LLMs: Progress and Future Directions
 
-
+<a href="https://arxiv.org/abs/2508.10047"><img src="https://img.shields.io/badge/arXiv-Paper-B31B1B.svg"></a> <a href="https://github.com/LLM4OR/LLM4OR"><img src="https://img.shields.io/github/stars/LLM4OR/LLM4OR?style=social"></a>
 ## Introduction
 
 <p align="center">
@@ -104,13 +104,19 @@ In this work, we identified the error samples in these benchmarks, subsequently 
 - Wang et al: "*OptiBench: Benchmarking Large Language Models in Optimization Modeling with Equivalence-Detection Evaluation*", ICLR(2025). 
     - <a href="https://openreview.net/forum?id=KD9F5Ap878"><img src="https://img.shields.io/badge/OpenReview-Paper-red"></a>  <a href="https://github.com/HoshinoAkua/OptiBench"><img src="https://img.shields.io/github/stars/HoshinoAkua/OptiBench?style=social"></a>  
 
-<!-- ## Citation
+## Citation
 
 If you find this repository helpful, please consider citing our paper:
 
 ```bibtex
-@article{
-
+@misc{xiao2025surveyoptimizationmodelingmeets,
+      title={A Survey of Optimization Modeling Meets LLMs: Progress and Future Directions}, 
+      author={Ziyang Xiao and Jingrong Xie and Lilin Xu and Shisi Guan and Jingyan Zhu and Xiongwei Han and Xiaojin Fu and WingYin Yu and Han Wu and Wei Shi and Qingcan Kang and Jiahui Duan and Tao Zhong and Mingxuan Yuan and Jia Zeng and Yuan Wang and Gang Chen and Dongxiang Zhang},
+      year={2025},
+      eprint={2508.10047},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2508.10047}, 
 }
-``` -->
+``` 
 
